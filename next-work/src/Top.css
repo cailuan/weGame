@@ -1,0 +1,47 @@
+.top{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background: #fff;
+}
+.top_only{
+	display: flex;
+	justify-content: space-around;
+	background: yellow;
+	align-items: center;
+	height: 0.9rem;
+}
+.writeIn{
+	border: 2px solid #ccc;
+	background: #fff;
+	height: 0.7rem;
+	line-height: 0.6rem;
+	width: 80%;
+	border-radius: 5px; 
+}
+.writeIn input{
+	border: none;
+	outline: none;
+	padding-left: 0.04rem; 
+
+}
+.bar_li{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.2rem;
+}
+.bar{
+	display: flex;
+	overflow-x: scroll;
+	align-items: center;
+	height: 1.6rem;
+}
+.bar li{
+	white-space: nowrap;
+	margin: 0 10px;
+	text-align: center;
+}
+ul{
+	list-style: none;
+}

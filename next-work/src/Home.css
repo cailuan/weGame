@@ -1,0 +1,106 @@
+
+.carousel{
+	margin-top: 2.5rem;
+	background: #fff;
+	overflow: hidden;
+}
+
+ul,li,div,html,body,img{
+	padding: 0;
+	margin: 0;
+}
+.lun img{
+	position: relative;
+	top:0.3rem;
+	left: 0;
+	width: 100%;
+}
+.classify{
+	display: flex;
+	 flex-wrap: wrap;
+}
+.classify_one{
+	width: 25%;
+	text-align: center;
+}
+.classify_one img{
+	width: 80%;
+}
+.flashSale{
+	display: flex;
+	flex-direction: column;
+	padding: 0.2rem;
+}
+.flashSale .flashSale_fir{
+	width: 0.36rem;
+}
+.productList div{
+	float: left;
+	padding: 0 0.1rem;
+}
+.productList div:nth-of-type(1) img{
+	width: 2.4rem;
+	height: 3.8rem;
+}
+.productList div:nth-of-type(2) img{
+	width: 3.4rem;
+	height: 1.92rem;
+}
+.productList div:nth-of-type(3) img, .productList div:nth-of-type(4) img{
+	width: 1.8rem;
+	height : 1.8rem;
+}
+.listDetails{
+	display: flex;
+	border-top: 1px solid #ccc;
+}
+.listAll{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.listName{
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-line-clamp:2; 
+	 /* autoprefixer: off */
+	  -webkit-box-orient: vertical;
+	  /* autoprefixer: on */
+	width: 3.8rem;
+}
+.listCarts{
+	display:flex;
+	justify-content: space-between;
+}
+.eachlist{
+	margin-bottom: 1.1rem;
+}
+
+.commodity{
+	display: flex;
+	flex-direction: row;
+
+}
+.onlyList{
+	width: 33.3%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.onlyList img{
+	width: 100%;
+}
+.onlyListName{
+	
+	height: 1.3rem;
+	color: #000;
+	background: #fff;
+	line-height: 20px;
+}
+.onlyListName div{
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
