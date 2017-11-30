@@ -1,9 +1,18 @@
 #register {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   height: 100%;
   width: 100%;
 }
-
+.goUp{
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  font-size: 20px;
+  line-height: 4rem;
+  padding: 0 0.5rem;
+}
 #login .register_header{
   width: 100%;
   height: 30%;

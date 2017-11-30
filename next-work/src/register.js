@@ -5,7 +5,7 @@ import axios from 'axios'
 import {createBrowserHistory} from 'history'
 import { NavLink } from 'react-router-dom'
 
-export default class register extends Component {
+export default class Register extends Component {
     constructor() {
         super()
         this.register = this.register.bind(this)
@@ -38,6 +38,7 @@ export default class register extends Component {
     render() {
         return (
             <div id='register'>
+                <div className="goUp"><a href="/">关闭</a></div>
                 <div className="register_header">
                       <img src={require("./images/pic (24).jpg")} />
                 </div>

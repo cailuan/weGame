@@ -5,7 +5,7 @@ import axios from 'axios'
 import {createBrowserHistory} from 'history'
 import { NavLink } from 'react-router-dom'
 
-export default class login extends Component {
+export default class Login extends Component {
     constructor() {
         super()
         this.login = this.login.bind(this)
@@ -38,6 +38,7 @@ export default class login extends Component {
     render() {
         return (
             <div id='login'>
+                <div className="goUp"><a href="/">关闭</a></div>
                 <div className="header">
                       <img src={require("./images/pic (24).jpg")} />
                 </div>
@@ -52,8 +53,8 @@ export default class login extends Component {
                     </div>
                     <div className="footer">
                       <ul>
-                        <li className="left"><a href="./register.js">忘记密码</a></li>
-                        <li className="right"><a href="./register.js">立即注册</a></li>
+                        <li className="left"><a href="./register">忘记密码</a></li>
+                        <li className="right"><a href="./register">立即注册</a></li>
                       </ul>
                     </div>
                     <button className="dianji" onClick={() => this.login()}>登录</button>

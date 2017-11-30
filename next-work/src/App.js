@@ -1,7 +1,8 @@
 import React from 'react'
-import Register from './register'
 import Home from './Home'
 import RoutePage from './routePage';
+import Login from './login';
+import Register from './register';
 import {
   BrowserRouter as Router,
   Route,
@@ -57,7 +58,8 @@ const BasicExample = () => (
       
 
       <hr/>
-
+      <Route path="/login" component={Login}/>
+      <Route path="/register" component={Register}/>
       <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/topics" component={Topics}/>
