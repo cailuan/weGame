@@ -3,19 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import {createStore} from 'redux'
 
-const reducers = (state , action)=>{
-	console.log('state');
+import {createStore} from 'redux';
+
+const reducers = (state,action)=>{
+
 }
-
-const store = createStore(reducers , {})
-
-function returnRender(){
+const store = createStore(reducers,{list:[]});
+function renderpage() {
 	ReactDOM.render(<App store={store} />, document.getElementById('root'));
 }
-returnRender();
-
-store.subscribe(returnRender);
+renderpage();
+store.subscribe(renderpage);
 
 registerServiceWorker();
